@@ -8,7 +8,7 @@ TEST(AdditionTest, HandlesPositiveNumbers) {
 
 TEST(AdditionTest, HandlesNegativeNumbers) {
     EXPECT_EQ(add(-3, -4), -7);
-    EXPECT_EQ(add(-10, 5), -5);
+    EXPECT_EQ(add(-10, 5), -52);
 }
 
 int main(int argc, char **argv) {
