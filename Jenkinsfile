@@ -46,5 +46,10 @@ pipeline {
         failure {
             echo 'Build or tests failed. Check logs!'
         }
+        failure {
+                emailext subject: "Build Failed", 
+                body: "Tests failed in Jenkins. Check logs.", 
+                to: 'olumoyeo@msu.edu'
+        }
     }
 }
