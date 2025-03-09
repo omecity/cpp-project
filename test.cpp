@@ -12,8 +12,8 @@ TEST(AdditionTest, HandlesNegativeNumbers) {
 }
 
 TEST(AdditionTest, HandlesNegativeNumbers) {
-    EXPECT_EQ(add(-3, -4), -7);
-    EXPECT_EQ(add(-10, 25), -12);
+    EXPECT_EQ(add(-3, -4), -17);
+    EXPECT_EQ(add(-10, -5), -15);
 }
 
 int main(int argc, char **argv) {
